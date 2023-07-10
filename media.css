@@ -1,0 +1,29 @@
+:root{
+    --background-color-hover: gainsboro;
+}
+.header-import:hover{
+   background-color: var(--background-color-hover);
+   cursor: pointer;
+}
+.search-form button:hover{
+    background-color: var(--background-color-hover);
+    cursor: pointer;
+}
+.recording:hover{
+    background-color: var(--background-color-hover);
+}
+.notification:hover{
+    background-color: var(--background-color-hover);
+}
+.text-border:hover{
+    background-color: var(--background-color-hover);
+}
+.btn-sgd:hover{
+    background-color: var(--background-color-hover);
+    border-radius: 50px;
+    width: 2rem;
+}
+.logo-close:hover{
+    border-radius: 50px;
+    background-color: var(--background-color-hover);
+}

@@ -1,0 +1,221 @@
+/* global-css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',arial, sans-serif;
+}
+body{
+    display: flex;
+}
+/* maain-head */
+
+.main-header{
+    display: flex;
+    /* width: 15%; */
+    flex-direction: column;
+    padding: 1.5rem 0.2rem;
+}
+
+.header-import{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 5rem;
+    border-radius: 5px;
+    padding-top: 0.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.acceuil{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.image{
+    width: 25px;
+    height: 25px;
+}
+
+.caption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+}
+/* main-content */
+.hero-section{
+    /* width: 85%; */
+    display: flex;
+    flex-direction: column;
+}
+.container-menu{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 0.7rem;
+    gap: 7rem;
+}
+/* logo */
+
+#logo{
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+}
+/* form-search */
+.search-recording{
+    display: flex;
+}
+.search-form {
+    display: flex;
+  }
+  
+.search-form input[type='text'] {
+    width: 33rem;
+    padding: 8px;
+    border: 1px solid dimgrey;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  
+.search-form button {
+    padding: 8px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 1px solid dimgrey;
+    text-align: center;
+    width: 4.2rem;
+    transition: all 0.2s ease-in-out;
+  }
+.imported-icon{
+    width: 25px;
+    height: 25px;
+  }
+.recording{
+    width: 2rem;
+    margin-left: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.creation-account{
+    display: flex;
+    align-items: center;
+}
+.notification{
+    width: 2.5rem;
+    margin-left: 0.5rem !important;
+}
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-left: 2.5rem;
+}
+.text-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    min-height: 2rem;
+    /* padding-top: 2px; */
+    background-color: rgb(234, 234, 230);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.text-border-modification{
+    width: 13rem;
+}
+#lonely{
+    width: 8rem;
+}
+#sup{
+    width: 2rem;
+    /* border: none; */
+    background-color: transparent;
+}
+.symbol-sup{
+    width: 1rem;
+    min-height: 1rem;
+}
+.styled-btn{
+    border-radius: 5px;
+    background-color: rgb(3, 3, 3);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 4rem;
+    min-height: 2rem;
+    font-weight: bold;
+}
+.btn-sgd{
+    border: none;
+}
+.container-video{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.video{
+    width: 22rem;
+    min-height: 22rem;
+    line-height: 0%;
+}
+.mpr{
+    width: 22rem;
+    border-radius: 4px;
+}
+.container-short{
+    display: flex;
+    flex-direction: column;
+    border-top: 7px solid gainsboro;
+    border-bottom: 5px solid gainsboro;
+    padding: 2rem;
+}
+.head-short{
+    display: flex;
+    justify-content: space-between;
+}
+.header-short{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-short{
+    width: 2rem;
+    height: 2rem;
+}
+.short.text{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+}
+.logo-close{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.video-short{
+    display: flex;
+    gap: 2rem;
+}
+.video-short-details{
+    /* width: 10rem; */
+    height: 22rem;
+}
